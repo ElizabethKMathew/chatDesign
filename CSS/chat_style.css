@@ -16,12 +16,17 @@
 
 .chat_list_header {
     background-color: #6d84b4;
-    padding: 5px;
-    color: white;
-    font-weight: bold;
-    font-size: 11px;
+    padding: 8px;
     clear: both;
     top: 30px;
+}
+.chat_list_heading {
+    width:40px;
+    
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    
 }
 
 .chat_list_content ul {
@@ -43,7 +48,7 @@
     display: block;
 }
 .profile_name:hover{
-	background-color: #e1e2e5;;
+    background-color: #e1e2e5;;
 }
 
 .chat_list_footer {
@@ -66,11 +71,51 @@
 
 .chat_box_header {
     background-color: #6d84b4;
-    padding: 5px;
+    padding: 8px;
     color: white;
     font-weight: bold;
     font-size: 14px;
     clear: both;
+}
+.chat_box_name {
+    width:40px;
+   
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.material-icons{
+    font-size: 15px;
+ float:right;
+padding: 2px;
+}
+
+.sender_picture{
+    float:left;
+}
+.sender_msg{
+    display: block;
+    border: 5px solid white;
+     border-left-color: transparent;
+  border-bottom-color: transparent;
+    box-shadow: 1px 1px 2px rgba(black, 0.2);
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.receiver_msg{
+    border: 5px solid white;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  box-shadow: 1px 1px 2px rgba(black, 0.2);
+   margin-bottom: 10px;
+    font-size: 14px;
+}
+
+
+
+.chat_box_content ol {
+    list-style-type: none;
+    margin-left: -40px;
 }
 
 .chat_box_footer {
@@ -78,16 +123,8 @@
     bottom: 0;
     width: 100%;
     height: 40px;
-    padding: 5px;
-}
-
-.chat_box_content ol {
-    list-style-type: none;
-}
-
-.textbox{
-	margin-left:10px; 
-}
-.image{
-	float:left;
+   }
+input{
+    width:250px;
+    height:30px;
 }
